@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Recipes</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF8E1;
+            color: #333;
+            overflow: hidden;
+        }
+        header {
+            background-color: #FF7043;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #FF7043;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .recipes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .recipe {
+            background-color: #FFFFFF;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #FFCC80;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .recipe img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #FF7043;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .recipes a{
+            text-decoration: none;
+        }
+        .recipes a:hover {
+            text-decoration: underline;
+        }
+
+        .external {
+            position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<div class="cont">
+    <header>
+        <h1>Cooking Recipes</h1>
+    </header>
+    
+    
+    <div class="recipes">
+        <a href="recipes/Spaghetti-Carbonara.html">
+            <div class="recipe">
+                <img src="https://www.allrecipes.com/thmb/a_0W8yk_LLCtH-VPqg2uLD9I5Pk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg" alt="Recipe 1">
+                <h3>Recipe 1: Spaghetti Carbonara</h3>
+                <p>A classic Italian pasta dish with creamy sauce and pancetta.</p>
+            </div>
+        </a>
+        <a href="recipes/Indian-Chicken-Curry.html">
+        <div class="recipe">
+            <img src="https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/b0c3fa7f15966dc2d4f9ea554fcbdc391e926d49/POSTER_USER/v0/b0c3fa7f15966dc2d4f9ea554fcbdc391e926d49.jpeg?quality=90" alt="Recipe 2">
+            <h3>Recipe 2: Indian Chicken Curry</h3>
+            <p>Rich and flavorful curry made with tender chicken and spices.</p>
+        </div>
+    </a>
+    <a href="recipes/Chocolate-Cake.html">
+        <div class="recipe" style="height: 85%;">
+            <img src="https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/e1965d57066095b7c2b4e0766192b8fda64b92d6/POSTER_USER/v0/e1965d57066095b7c2b4e0766192b8fda64b92d6.jpeg?quality=90" alt="Recipe 3">
+            <h3>Recipe 3: Chocolate Cake</h3>
+            <p>Decadent chocolate cake with creamy frosting for dessert lovers.</p>
+        </div>
+    </a>
+    </div>
+    <div class="external">
+        <p style="display: flex; justify-content: center;bottom: 0;">Check out these amazing cooking resources:</p>
+        <nav>
+            <a href="https://www.bbcgoodfood.com/" target="_blank">goodFood</a>
+            <a href="https://www.allrecipes.com" target="_blank">All Recipes</a>
+        </nav>
+    </div>
+    
+    <div class="sources" style="display: flex;justify-content: center;">
+        <b>Click <a href="sources.html" target="_blank" style="color: #FF7043;">Here</a> to see the sources of the website.</b>
+    </div>
+    
+<footer>
+    <p>&copy; 2024 Cooking Delights. All rights reserved.</p>
+</footer>
+</div>
+
+</body>
+
+</html>
